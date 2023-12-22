@@ -1,0 +1,44 @@
+/* Define color variables */
+:root {
+  --dark-gray: #33393f;
+  --blue: #155f87;
+  --light-gray: #d6d6d6;
+  --link-color: #70a8d6; /* Adjusted lighter color for links */
+}
+
+/* Apply styles using the color variables */
+body {
+  background-color: var(--dark-gray);
+  color: var(--light-gray);
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  background-color: var(--blue);
+  color: var(--light-gray);
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  color: var(--light-gray);
+  padding: 10px;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border-color: var(--blue);
+  margin: 20px 0;
+}
+
+/* Add more styles as needed */
